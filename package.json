@@ -5,6 +5,7 @@
   "author": "Tauqeer Awan <startsco@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "jest": "^23.6.0"
   },
   "scripts": {
