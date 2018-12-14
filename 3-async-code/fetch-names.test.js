@@ -9,12 +9,14 @@ describe('Fetch Data', () => {
   })
 
   test('returns array of length 25', () => {
+    expect.assertions(1);
     return response.then(res => {
       expect(res).toHaveLength(25);
     })
   })
 
   test('matches response data structure', () => {
+    expect.assertions(1)
     return response.then(res => {
       expect(res).toEqual( 
         expect.arrayContaining(
